@@ -1,39 +1,69 @@
-﻿$(function($){
+﻿$(function ($) {
 	// Settings
-	$(".maxsize").css({ top : ($(window).width() - $(".maxsize").height())/2  });
+	$(".maxsize").css({ top: ($(window).width() - $(".maxsize").height()) / 2 });
 	var repeat = localStorage.repeat || 0,
 		shuffle = localStorage.shuffle || 'true',
 		continous = true,
 		autoplay = true,
 		playlist = [
-		{
-			title: "The Diva Dance",
-			artist: "Josie Young",
-			album: " ",
-			cover: "img/0.jpg",
-			mp3: "./music/1.mp3",
-		},
-		 {
-			title: "爱存在",
-			artist: "王诗安",
-			album: " ",
-			cover: "img/1.jpg",
-			mp3: "http://tool.4vtk.com/music/netease/28731453.mp3",
-		}, 
-	    {
-			title: "听说爱情回来过",
-			artist: "蔡依林",
-			album: " ",
-			cover: "img/2.jpg",
-			mp3: "http://tool.4vtk.com/music/netease/209609.mp3",
-		},
-		 {
-			title: "答案",
-			artist: "Tank",
-			album: " ",
-			cover: "img/3.jpg",
-			mp3: "http://tool.4vtk.com/music/qq/001plPDi1V2Kpi.mp3",
-		}];
+			{
+				title: "信仰",
+				artist: "程程",
+				album: " ",
+				cover: "img/0.jpg",
+				mp3: "./cc/信仰.m4a",
+			},
+			{
+				title: "迷人的危险",
+				artist: "程程",
+				album: " ",
+				cover: "img/3.jpg",
+				mp3: "./cc/迷人的危险.mp3",
+			},
+			{
+				title: "游京",
+				artist: "程程",
+				album: " ",
+				cover: "img/1.jpg",
+				mp3: "./cc/游京.m4a",
+			},
+			{
+				title: "寂寞烟火",
+				artist: "程程",
+				album: " ",
+				cover: "img/2.jpg",
+				mp3: "./cc/寂寞烟火.m4a",
+			},
+			{
+				title: "你走以后",
+				artist: "程程",
+				album: " ",
+				cover: "img/3.jpg",
+				mp3: "./cc/你走以后.m4a",
+			},
+			{
+				title: "盛夏的果实",
+				artist: "程程",
+				album: " ",
+				cover: "img/3.jpg",
+				mp3: "./cc/盛夏的果实.m4a",
+			},
+			{
+				title: "说好了不见面",
+				artist: "程程",
+				album: " ",
+				cover: "img/3.jpg",
+				mp3: "./cc/说好了不见面.m4a",
+			},
+			{
+				title: "发如雪",
+				artist: "程程",
+				album: " ",
+				cover: "img/3.jpg",
+				mp3: "./cc/发如雪.mp3",
+			},
+
+		];
 
 	// Load playlist
 	for (var i = 0; i < playlist.length; i++) {
@@ -250,9 +280,9 @@
 			$(this).addClass('enable');
 		}
 	});
-		$(".download img").hover(function(){
-		$(this).attr({ "src" : "img/link2.png" });
-	}, function(){
-		$(this).attr({ "src" : "img/link1.png" });
+	$(".download img").hover(function () {
+		$(this).attr({ "src": "img/link2.png" });
+	}, function () {
+		$(this).attr({ "src": "img/link1.png" });
 	});
 });
