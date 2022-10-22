@@ -7,19 +7,18 @@
 		autoplay = true,
 		playlist = [
 			{
-				title: "信仰",
-				artist: "程程",
-				album: " ",
-				cover: "img/0.jpg",
-				mp3: "./cc/信仰.m4a",
-			},
-			{
 				title: "迷人的危险",
 				artist: "程程",
 				album: " ",
 				cover: "img/1.jpg",
 				mp3: "./cc/迷人的危险.mp3",
-			},
+			},{
+				title: "信仰",
+				artist: "程程",
+				album: " ",
+				cover: "img/0.jpg",
+				mp3: "./cc/信仰.m4a",
+			},			
 			{
 				title: "游京",
 				artist: "程程",
