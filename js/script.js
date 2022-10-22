@@ -61,6 +61,13 @@
 				cover: "img/7.jpg",
 				mp3: "./cc/发如雪.mp3",
 			},
+			{
+				title: "解药",
+				artist: "程程",
+				album: " ",
+				cover: "img/5.jpg",
+				mp3: "./cc/解药.mp3",
+			},
 
 		];
 
